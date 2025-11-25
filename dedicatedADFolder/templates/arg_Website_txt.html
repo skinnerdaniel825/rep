@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Website for Sammy photo</title>
+		<link href="styles/style.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+         rel="stylesheet" />
+		<script async src="button/password.js"></script>
+
+    </head>
+    <body>
+		<div id = "login"></div>
+		    <p> Enter password </p> <!-- TODO password prompt-->
+        </div>
+
+        <div id="content" style="display:none;">
+            <h1>Thankyou</h1>
+        </div>
+
+    <form onsubmit="return false;">
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd" minlength="8">
+        <br><br>
+    </form>
+
+	
+		<button onclick="checkPassword()">Initialize</button>
+    </body>
+</html>
